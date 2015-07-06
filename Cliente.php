@@ -7,11 +7,31 @@
  */
 
 class Cliente {
-    public $nome;
-    public $telefone;
-    public $email;
-    public $dadosPessoais;
-    public $endereco;
+    private $nome;
+    private $telefone;
+    private $email;
+    private $dadosPessoais;
+    private $endereco;
+
+    public function getNome(){
+        return $this->nome;
+    }
+
+    public function getTelefone(){
+        return $this->telefone;
+    }
+
+    public function getEmail(){
+        return $this->email;
+    }
+
+    public function getDadosPessoais(){
+        return $this->dadosPessoais;
+    }
+
+    public function getEndereco(){
+        return $this->endereco;
+    }
 
     public function __construct($dados){
         /**
