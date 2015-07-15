@@ -1,10 +1,11 @@
 <?php
+include_once "Cliente.php";
 $cliente0 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Tharcius',
+            'nome'=>'Neville',
             'telefone'=>'(62) 8527-2801',
-            'email'=>'tharcius@brasilpad.com'
+            'email'=>'longbottom@brasilpad.com'
         ]
         ,
         'endereco'=>[
@@ -24,9 +25,9 @@ $cliente0 = new Cliente(
 $cliente1 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Charlote',
+            'nome'=>'Rowena',
             'telefone'=>'(62) 3326-2801',
-            'email'=>'charlote@brasilpad.com'
+            'email'=>'ravenclaw@brasilpad.com'
         ]
         ,
         'endereco'=>[
@@ -46,9 +47,9 @@ $cliente1 = new Cliente(
 $cliente2 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Evee',
+            'nome'=>'Petúnia',
             'telefone'=>'(62) 3326-2802',
-            'email'=>'evee@brasilpad.com'
+            'email'=>'evans@brasilpad.com'
         ]
         ,
         'endereco'=>[
@@ -220,3 +221,12 @@ $cliente9 = new Cliente(
 );
 
 $clientes = [$cliente0, $cliente1, $cliente2, $cliente3, $cliente4, $cliente5, $cliente6, $cliente7, $cliente8, $cliente9];
+
+foreach ($clientes as $key => $cliente) {
+    $cl[$cliente->getNome()]['id']            = $key;
+    $cl[$cliente->getNome()]['nome']          = $cliente->getNome();
+    $cl[$cliente->getNome()]['telefone']      = $cliente->getTelefone;
+    $cl[$cliente->getNome()]['email']         = $cliente->getEmail();
+    $cl[$cliente->getNome()]['dadosPessoais'] = $cliente->getDadosPessoais();
+    $cl[$cliente->getNome()]['endereco']      = $cliente->getEndereco();
+}
