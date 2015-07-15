@@ -11,6 +11,9 @@ Acabei trocando o Foundation pelo Materialize para aprender a trabalhar com esse
 
 
 ## Histórico de mudanças
+- Correções no projeto
+  - Utilização do filter_input para filtragem dos dados recebidos pela URL.
+  - Correção da busca dos telefones pelo getter getTelefone() (Havia esquecidos os parenteses na chamada da função).
 
 - Substituição do Framework CSS
   - Para fins de aprendizado e testes, optei por trocar o Fundation pelo Materialize CSS(http://materializecss.com/)
