@@ -5,7 +5,7 @@
     ?>
     <h3>Listagem de Clientes
     <?php
-        $ordenacao = $_GET['ord'];
+        $ordenacao = filter_input(INPUT_GET, 'ord');
         if ($ordenacao == 'asc') {
             ksort($cl);
             echo "<a href='/index.php?ord=desc'><img src='img/up.png'></a>";
