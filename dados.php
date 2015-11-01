@@ -3,230 +3,251 @@ include_once "Cliente.php";
 $cliente0 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Neville',
-            'telefone'=>'(62) 8527-2801',
-            'email'=>'longbottom@brasilpad.com'
+            'nome'      =>'Neville',
+            'telefone'  =>'(62) 8527-2801',
+            'email'     =>'longbottom@brasilpad.com',
+            'cpfCnpj'   =>'000.000.000-01',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -218px'
         ]
         ,
         'endereco'=>[
             'logradouro'=>'Rua Central, 102 - Centro',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'cidade'    =>'Jaraguá',
+            'uf'        =>'GO',
         ]
         ,
-        'dadosPessoais'=>[
+        'fisica'=>[
             'dataNascimento'=>'25/10/1980',
-            'cpf'=>'000.000.000-01',
-            'rg'=>'123.456',
+            'whatsapp'  =>'123.456',
+            'estadoCivil'=>'Solteiro'
         ]
+        ,
+        'juridica'      =>null
     ]
 );
 
 $cliente1 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Rowena',
-            'telefone'=>'(62) 3326-2801',
-            'email'=>'ravenclaw@brasilpad.com'
+            'nome'      =>'Harry',
+            'telefone'  =>'(62) 3326-2804',
+            'email'     =>'harry@brasilpad.com',
+            'cpfCnpj'   =>'000.000.000-04',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -322px'
         ]
         ,
         'endereco'=>[
-            'logradouro'=>'Av. 10, 300 - Jardim Botânico',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'logradouro'=>'Rua dos Alfeneiros, 7 - Wallaby Way',
+            'cidade'    =>'Jaraguá',
+            'uf'        =>'GO',
         ]
         ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1981',
-            'cpf'=>'000.000.000-02',
-            'rg'=>'123.457',
+        'fisica'=>[
+            'dataNascimento'=>'25/10/1983',
+            'whatsapp'  =>'123.459',
+            'estadoCivil'=>'Casado'
         ]
+        ,
+        'juridica'=>null
     ]
 );
 
 $cliente2 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Petúnia',
-            'telefone'=>'(62) 3326-2802',
-            'email'=>'evans@brasilpad.com'
+            'nome'      =>'Ronald',
+            'telefone'  =>'(62) 3326-2805',
+            'email'     =>'rony@brasilpad.com',
+            'cpfCnpj'   =>'000.000.000-05',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -114px'
         ]
         ,
         'endereco'=>[
-            'logradouro'=>'Travessa Damasceno, casa 5 - Centro',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'logradouro'=>'Rua Moacir Rios, 752 - Rural',
+            'cidade'    =>'Jaraguá',
+            'uf'        =>'GO',
         ]
         ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1982',
-            'cpf'=>'000.000.000-03',
-            'rg'=>'123.458',
+        'fisica'=>[
+            'dataNascimento'=>'25/10/1984',
+            'whatsapp'  =>'123.460',
+            'estadoCivil'=>'Casado'
         ]
+        ,
+        'juridica'      =>null
     ]
 );
 
 $cliente3 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Harry',
-            'telefone'=>'(62) 3326-2804',
-            'email'=>'harry@brasilpad.com'
+            'nome'      =>'Ginevra',
+            'telefone'  =>'(62) 3326-2806',
+            'email'     =>'gina@brasilpad.com',
+            'cpfCnpj'   =>'000.000.000-05',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll 0 -10px'
         ]
         ,
         'endereco'=>[
-            'logradouro'=>'Rua dos Alfeneiros, 7 - Wallaby Way',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'logradouro'=>'Rua da Toca, 1 - Fazendinha',
+            'cidade'    =>'Jaraguá',
+            'uf'        =>'GO',
         ]
         ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1983',
-            'cpf'=>'000.000.000-04',
-            'rg'=>'123.459',
+        'fisica'=>[
+            'dataNascimento'=>'25/10/1985',
+            'whatsapp'  =>'123.461',
+            'estadoCivil'=>'Casada'
         ]
+        ,
+        'juridica'=>null
     ]
 );
 
 $cliente4 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Ronald',
-            'telefone'=>'(62) 3326-2805',
-            'email'=>'rony@brasilpad.com'
+            'nome'      =>'Hermione ',
+            'telefone'  =>'(62) 3326-2807',
+            'email'     =>'mione@brasilpad.com',
+            'cpfCnpj'   =>'000.000.000-06',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -138px -218px'
         ]
         ,
         'endereco'=>[
-            'logradouro'=>'Rua Moacir Rios, 752 - Rural',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'logradouro'=>'Av. JK, 275 - Centro',
+            'cidade'    =>'Jaraguá',
+            'uf'        =>'GO',
         ]
         ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1984',
-            'cpf'=>'000.000.000-05',
-            'rg'=>'123.460',
+        'fisica'=>[
+            'dataNascimento'=>'25/10/1986',
+            'whatsapp'  =>'123.462',
+            'estadoCivil'=>'Casada'
         ]
+        ,
+        'juridica'=>null
     ]
 );
 
 $cliente5 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Ginevra',
-            'telefone'=>'(62) 3326-2806',
-            'email'=>'gina@brasilpad.com'
+            'nome'      =>'Dedos de Mel',
+            'telefone'  =>'(62) 3326-3100',
+            'email'     =>'dedosdemel@brasilpad.com',
+            'cpfCnpj'   =>'00.000.000/0005-01',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -141px -5px'
         ]
         ,
         'endereco'=>[
-            'logradouro'=>'Rua da Toca, 1 - Fazendinha',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'logradouro'=>'4 loja da rua central',
+            'cidade'    =>'Hogsmead',
+            'uf'        =>'UK',
         ]
         ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1985',
-            'cpf'=>'000.000.000-05',
-            'rg'=>'123.461',
+        'juridica'=>[
+            'contato'   =>'Ambrósio Flume',
+            'tipo'      =>'Loja de Doces',
+            'url'       =>'www.dedosdemel.com.br'
         ]
+        ,
+        'fisica'        =>null
     ]
 );
 
 $cliente6 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Hermione ',
-            'telefone'=>'(62) 3326-2807',
-            'email'=>'mione@brasilpad.com'
+            'nome'      =>'Olivaras',
+            'telefone'  =>'(62) 3326-3105',
+            'email'     =>'olivanders@brasilpad.com',
+            'cpfCnpj'   =>'00.000.000/0005-02',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -72px -3px'
         ]
         ,
         'endereco'=>[
-            'logradouro'=>'Av. JK, 275 - Centro',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'logradouro'=>'Beco diagonal, loja 11',
+            'cidade'    =>'Londres',
+            'uf'        =>'UK',
         ]
         ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1986',
-            'cpf'=>'000.000.000-06',
-            'rg'=>'123.462',
+        'juridica'=>[
+            'contato'   =>'Garrick Olivaras',
+            'tipo'      =>'Fabricante de varinhas',
+            'url'       =>'www.olivanders.com.br'
         ]
+        ,
+        'fisica'        =>null
     ]
 );
 
 $cliente7 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Angelina',
-            'telefone'=>'(62) 3326-2810',
-            'email'=>'johnson@brasilpad.com'
+            'nome'      =>'Gemialidades Weasley',
+            'telefone'  =>'(62) 3326-3110',
+            'email'     =>'g.wesley@brasilpad.com',
+            'cpfCnpj'   =>'00.000.000/0005-23',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -210px -3px'
         ]
         ,
         'endereco'=>[
-            'logradouro'=>'Rua da Armada, 13 - Caterpaul',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'logradouro'=>'Beco diagonal, loja 93',
+            'cidade'    =>'Londres',
+            'uf'        =>'UK',
         ]
         ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1977',
-            'cpf'=>'000.000.000-07',
-            'rg'=>'123.463',
+        'juridica'=>[
+            'contato'   =>'Jorge Weasley',
+            'tipo'      =>'Loja de Logros',
+            'url'       =>'www.gwesley.com.br'
         ]
+        ,
+        'fisica'        =>null
     ]
 );
 
 $cliente8 = new Cliente(
     [
         'cliente'=>[
-            'nome'=>'Córmaco',
-            'telefone'=>'(62) 3326-2811',
-            'email'=>'mclaggen@brasilpad.com'
+            'nome'      =>'Sorveteria Florean',
+            'telefone'  =>'(62) 3326-3150',
+            'email'     =>'sorveteria@brasilpad.com',
+            'cpfCnpj'   =>'00.000.000/0005-10',
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -279px -3px'
         ]
         ,
         'endereco'=>[
-            'logradouro'=>'Rua das Alfazemas, 741 - Primavera Park',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
+            'logradouro'=>'Beco diagonal, loja 19',
+            'cidade'    =>'Londres',
+            'uf'        =>'UK',
         ]
         ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1978',
-            'cpf'=>'000.000.000-08',
-            'rg'=>'123.464',
+        'juridica'=>[
+            'contato'   =>'Florean Fortescue',
+            'tipo'      =>'Sorveteria',
+            'url'       =>'www.floreanfortescue.com.br'
         ]
+        ,
+        'fisica'        =>null
     ]
 );
-
-$cliente9 = new Cliente(
-    [
-        'cliente'=>[
-            'nome'=>'Mundungo',
-            'telefone'=>'(62) 8527-2812',
-            'email'=>'fletcher@brasilpad.com'
-        ]
-        ,
-        'endereco'=>[
-            'logradouro'=>'Rua castelinho, casa 7 - Setor Marista',
-            'cidade'=>'Jaraguá',
-            'uf'=>'GO',
-        ]
-        ,
-        'dadosPessoais'=>[
-            'dataNascimento'=>'25/10/1979',
-            'cpf'=>'000.000.000-09',
-            'rg'=>'123.465',
-        ]
-    ]
-);
-
-$clientes = [$cliente0, $cliente1, $cliente2, $cliente3, $cliente4, $cliente5, $cliente6, $cliente7, $cliente8, $cliente9];
+//-345px -322px
+$clientes = [$cliente0, $cliente1, $cliente2, $cliente3, $cliente4, $cliente5, $cliente6, $cliente7, $cliente8];
 
 foreach ($clientes as $key => $cliente) {
+
     $cl[$cliente->getNome()]['id']            = $key;
     $cl[$cliente->getNome()]['nome']          = $cliente->getNome();
     $cl[$cliente->getNome()]['telefone']      = $cliente->getTelefone();
     $cl[$cliente->getNome()]['email']         = $cliente->getEmail();
-    $cl[$cliente->getNome()]['dadosPessoais'] = $cliente->getDadosPessoais();
+    $cl[$cliente->getNome()]['foto']          = $cliente->getFoto();
+    $cl[$cliente->getNome()]['cpfCnpj']       = $cliente->getcpfCnpj();
     $cl[$cliente->getNome()]['endereco']      = $cliente->getEndereco();
+    $cl[$cliente->getNome()]['fisica']        = $cliente->getFisica();
+    $cl[$cliente->getNome()]['juridica']      = $cliente->getJuridica();
+//    echo "<pre>";
+//    print_r($cliente);
+//    exit();
 }

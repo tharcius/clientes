@@ -13,7 +13,8 @@
     font-size: inherit;
 }
 
-.foto-user00, .foto-user01, .foto-user02, .foto-user03, .foto-user04, .foto-user05, .foto-user06, .foto-user07, .foto-user08, .foto-user09 {
+.foto-user{
+    border: solid 3px #344E5A;
     border-radius: 5px;
     display: inline-block;
     height: 80px;
@@ -24,42 +25,12 @@
     width: 69px;
 }
 
-.foto-user00{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -322px;
-}
-
-.foto-user01{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll 0 -10px;
-}
-
-.foto-user02{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -138px -218px;
-}
-
-.foto-user03{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -218px;
-}
-
-.foto-user04{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -10px;
-}
-
-.foto-user05{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -276px -114px;
-}
-
-.foto-user06{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -276px -322px;
-}
-
-.foto-user07{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -138px -322px;
-}
-
-.foto-user08{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -114px;
-}
-
-.foto-user09{
-    background: rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -345px -322px;
+.tipo-pessoa{
+    border-radius: 5px;
+    display: inline-block;
+    height: 80px;
+    right: 10px;
+    margin-right: 1em;
+    position: absolute;
+    top: 10px;
 }

@@ -10,8 +10,14 @@ class Cliente {
     private $nome;
     private $telefone;
     private $email;
-    private $dadosPessoais;
     private $endereco;
+    private $foto;
+    private $cpfCnpj;
+    private $fisica;
+    private $juridica;
+
+    // Analisar
+    private $enderecoCobranca;
 
     public function getNome(){
         return $this->nome;
@@ -33,18 +39,45 @@ class Cliente {
         return $this->endereco;
     }
 
+    public function getEnderecoCobranca(){
+        return $this->enderecoCobranca;
+    }
+
+    public function getFoto()
+    {
+        return $this->foto;
+    }
+
+    public function getCpfCnpj()
+    {
+        return $this->cpfCnpj;
+    }
+
+    public function getFisica(){
+        return $this->fisica;
+    }
+
+    public function getJuridica(){
+        return $this->juridica;
+    }
+
     public function __construct($dados){
         /**
-         * $dados['cliente'] = informações pessoais do cliente
+         * $dados['cliente']  = informações pessoais do cliente
          * $dados['endereco'] = informações de endereçamento
-         * $dados['dadosPessoais'] = dados pessoais e documentação do cliente
+         * $dados['fisica']   = dados pessoais e documentação do cliente físico
+         * $dados['juridica'] = dados e documentação do cliente jurídico
          */
+
         $cliente = $dados['cliente'];
 
         $this->nome         = $cliente['nome'];
-        $this->dadosPessoais= $dados['dadosPessoais'];
-        $this->endereco     = $dados['endereco'];
         $this->telefone     = $cliente['telefone'];
         $this->email        = $cliente['email'];
+        $this->foto         = $cliente['foto'];
+        $this->cpfCnpj      = $cliente['cpfCnpj'];
+        $this->endereco     = $dados['endereco'];
+        $this->fisica       = $dados['fisica'];
+        $this->juridica     = $dados['juridica'];
     }
 }
