@@ -31,6 +31,7 @@
                 <div class="card blue-grey darken-1">
                     <div class="card-content white-text">
                         <span class="card-title"><i class="foto-user" style='background: <?php echo($cliente['foto']) ?>; width: 69px; height: 80px;'>&nbsp;</i><a href="detalhes.php?id=<?php echo $cliente['nome']; ?>" class="cyan-text text-darken-1" style="text-shadow: -2px 2px 3px #000; font-weight: bold"><?php echo $cliente['nome']; ?></a></span>
+                        <p><i class="estrela<?php echo($cliente['classificacao']) ?>">&nbsp;</i></p>
                         <p><?php echo $cliente['telefone']; ?></p>
                         <p><?php echo $cliente['email']; ?></p>
                     </div>

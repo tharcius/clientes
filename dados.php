@@ -7,7 +7,8 @@ $cliente0 = new Cliente(
             'telefone'  =>'(62) 8527-2801',
             'email'     =>'longbottom@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-01',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -218px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -218px',
+            'classificacao'=> 2
         ]
         ,
         'endereco'=>[
@@ -33,7 +34,8 @@ $cliente1 = new Cliente(
             'telefone'  =>'(62) 3326-2804',
             'email'     =>'harry@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-04',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -322px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -322px',
+            'classificacao'=> 5
         ]
         ,
         'endereco'=>[
@@ -59,7 +61,8 @@ $cliente2 = new Cliente(
             'telefone'  =>'(62) 3326-2805',
             'email'     =>'rony@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-05',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -114px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -114px',
+            'classificacao'=> 4
         ]
         ,
         'endereco'=>[
@@ -85,7 +88,8 @@ $cliente3 = new Cliente(
             'telefone'  =>'(62) 3326-2806',
             'email'     =>'gina@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-05',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll 0 -10px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll 0 -10px',
+            'classificacao'=> 4
         ]
         ,
         'endereco'=>[
@@ -111,7 +115,8 @@ $cliente4 = new Cliente(
             'telefone'  =>'(62) 3326-2807',
             'email'     =>'mione@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-06',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -138px -218px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -138px -218px',
+            'classificacao'=> 4
         ]
         ,
         'endereco'=>[
@@ -137,7 +142,8 @@ $cliente5 = new Cliente(
             'telefone'  =>'(62) 3326-3100',
             'email'     =>'dedosdemel@brasilpad.com',
             'cpfCnpj'   =>'00.000.000/0005-01',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -141px -5px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -141px -5px',
+            'classificacao'=> 3
         ]
         ,
         'endereco'=>[
@@ -163,7 +169,8 @@ $cliente6 = new Cliente(
             'telefone'  =>'(62) 3326-3105',
             'email'     =>'olivanders@brasilpad.com',
             'cpfCnpj'   =>'00.000.000/0005-02',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -72px -3px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -72px -3px',
+            'classificacao'=> 2
         ]
         ,
         'endereco'=>[
@@ -189,7 +196,8 @@ $cliente7 = new Cliente(
             'telefone'  =>'(62) 3326-3110',
             'email'     =>'g.wesley@brasilpad.com',
             'cpfCnpj'   =>'00.000.000/0005-23',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -210px -3px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -210px -3px',
+            'classificacao'=> 4
         ]
         ,
         'endereco'=>[
@@ -215,7 +223,8 @@ $cliente8 = new Cliente(
             'telefone'  =>'(62) 3326-3150',
             'email'     =>'sorveteria@brasilpad.com',
             'cpfCnpj'   =>'00.000.000/0005-10',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -279px -3px'
+            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -279px -3px',
+            'classificacao'=> 1
         ]
         ,
         'endereco'=>[
@@ -243,6 +252,7 @@ foreach ($clientes as $key => $cliente) {
     $cl[$cliente->getNome()]['telefone']      = $cliente->getTelefone();
     $cl[$cliente->getNome()]['email']         = $cliente->getEmail();
     $cl[$cliente->getNome()]['foto']          = $cliente->getFoto();
+    $cl[$cliente->getNome()]['classificacao'] = $cliente->getClassificacao();
     $cl[$cliente->getNome()]['cpfCnpj']       = $cliente->getcpfCnpj();
     $cl[$cliente->getNome()]['endereco']      = $cliente->getEndereco();
     $cl[$cliente->getNome()]['fisica']        = $cliente->getFisica();

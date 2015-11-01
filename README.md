@@ -18,7 +18,9 @@ Acabei trocando o Foundation pelo Materialize para aprender a trabalhar com esse
 
 ## Histórico de mudanças
 - Nova etapa
-  - Diferenciar cliente jurídico de físico através do CPF/CNPJ.
+  - Aceitar também clientes Pessoa Jurídica em sua listagem..
+  - No momento da listagem dos clientes, você deve indicar em uma das colunas se o cliente é pessoa física ou jurídica.
+  - Ambos os tipos devem implementar uma interface onde seja possível classificar o grau de importância do cliente para a empresa (ex: cliente 1,2,3,5 estrelas).
 
 
 - Correções no projeto
@@ -26,12 +28,15 @@ Acabei trocando o Foundation pelo Materialize para aprender a trabalhar com esse
   - Correção da busca dos telefones pelo getter getTelefone() (Havia esquecidos os parenteses na chamada da função).
   - Muito obrigado pela dica do filter_input.
 
+
 - Substituição do Framework CSS
   - Para fins de aprendizado e testes, optei por trocar o Fundation pelo Materialize CSS(http://materializecss.com/).
   
+
 - Criação da págida para exibição dos clientes do array
   - Criação do layout da aplicação utilizando o Zurb Foundation(http://foundation.zurb.com/) como framework CSS.
   
+
 - Criado um array com 10 elementos
   - A partir da classe principal, foi gerado um array com 10 clientes.
   - Estrutura inicial criada.

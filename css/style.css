@@ -25,6 +25,36 @@
     width: 69px;
 }
 
+.estrela1, .estrela2, .estrela3, .estrela4, .estrela5{
+    display: inline-block;
+    height: 40px;
+    left: 10px;
+    margin-right: 1em;
+    position: static;
+    top: 10px;
+    width: 188px
+}
+
+.estrela1{
+    background: rgba(0,0,0,0) url("/img/star-rating.png") repeat scroll -0 -160px;
+}
+
+.estrela2{
+    background: rgba(0,0,0,0) url("/img/star-rating.png") repeat scroll -0 -120px;
+}
+
+.estrela3{
+    background: rgba(0,0,0,0) url("/img/star-rating.png") repeat scroll -0 -80px;
+}
+
+.estrela4{
+    background: rgba(0,0,0,0) url("/img/star-rating.png") repeat scroll -0 -40px;
+}
+
+.estrela5{
+    background: rgba(0,0,0,0) url("/img/star-rating.png") repeat scroll -0 -0;
+}
+
 .tipo-pessoa{
     border-radius: 5px;
     display: inline-block;

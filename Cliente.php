@@ -12,6 +12,7 @@ class Cliente {
     private $email;
     private $endereco;
     private $foto;
+    private $classificacao;
     private $cpfCnpj;
     private $fisica;
     private $juridica;
@@ -48,6 +49,10 @@ class Cliente {
         return $this->foto;
     }
 
+    public function getClassificacao(){
+        return $this->classificacao;
+    }
+
     public function getCpfCnpj()
     {
         return $this->cpfCnpj;
@@ -75,6 +80,7 @@ class Cliente {
         $this->telefone     = $cliente['telefone'];
         $this->email        = $cliente['email'];
         $this->foto         = $cliente['foto'];
+        $this->classificacao= $cliente['classificacao'];
         $this->cpfCnpj      = $cliente['cpfCnpj'];
         $this->endereco     = $dados['endereco'];
         $this->fisica       = $dados['fisica'];
