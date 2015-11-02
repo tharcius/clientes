@@ -23,7 +23,13 @@ $cliente0 = new Cliente(
             'estadoCivil'=>'Solteiro'
         ]
         ,
-        'juridica'      =>null
+        'juridica'=>null
+        ,
+        'cobranca' => [
+            'logradouro'=>'Estufa de Herbologia',
+            'cidade'    =>'Hogwarts',
+            'uf'        =>'UK'
+        ]
     ]
 );
 
@@ -51,6 +57,8 @@ $cliente1 = new Cliente(
         ]
         ,
         'juridica'=>null
+        ,
+        'cobranca'=>null
     ]
 );
 
@@ -77,7 +85,9 @@ $cliente2 = new Cliente(
             'estadoCivil'=>'Casado'
         ]
         ,
-        'juridica'      =>null
+        'juridica'=>null
+        ,
+        'cobranca'=>null
     ]
 );
 
@@ -105,6 +115,8 @@ $cliente3 = new Cliente(
         ]
         ,
         'juridica'=>null
+        ,
+        'cobranca'=>null
     ]
 );
 
@@ -132,6 +144,8 @@ $cliente4 = new Cliente(
         ]
         ,
         'juridica'=>null
+        ,
+        'cobranca'=>null
     ]
 );
 
@@ -158,7 +172,9 @@ $cliente5 = new Cliente(
             'url'       =>'www.dedosdemel.com.br'
         ]
         ,
-        'fisica'        =>null
+        'fisica'=>null
+        ,
+        'cobranca'=>null
     ]
 );
 
@@ -185,7 +201,13 @@ $cliente6 = new Cliente(
             'url'       =>'www.olivanders.com.br'
         ]
         ,
-        'fisica'        =>null
+        'fisica'=>null
+        ,
+        'cobranca' => [
+            'logradouro'=>'Cabana das Conchas',
+            'cidade'    =>'Tinworth',
+            'uf'        =>'UK'
+        ]
     ]
 );
 
@@ -212,7 +234,13 @@ $cliente7 = new Cliente(
             'url'       =>'www.gwesley.com.br'
         ]
         ,
-        'fisica'        =>null
+        'fisica' =>null
+        ,
+        'cobranca' => [
+            'logradouro'=>'A Toca',
+            'cidade'    =>'Ottery St. Catchpole',
+            'uf'        =>'UK'
+        ]
     ]
 );
 
@@ -239,7 +267,9 @@ $cliente8 = new Cliente(
             'url'       =>'www.floreanfortescue.com.br'
         ]
         ,
-        'fisica'        =>null
+        'fisica'=>null
+        ,
+        'cobranca'=>null
     ]
 );
 //-345px -322px
@@ -257,6 +287,7 @@ foreach ($clientes as $key => $cliente) {
     $cl[$cliente->getNome()]['endereco']      = $cliente->getEndereco();
     $cl[$cliente->getNome()]['fisica']        = $cliente->getFisica();
     $cl[$cliente->getNome()]['juridica']      = $cliente->getJuridica();
+    $cl[$cliente->getNome()]['cobranca']      = $cliente->getCobranca();
 //    echo "<pre>";
 //    print_r($cliente);
 //    exit();

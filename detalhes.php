@@ -42,6 +42,22 @@ if ($cliente['fisica'])
                         <div class="tipo-pessoa">
                             <img src="img/icon-pessoa-<?php echo $pessoa;?>.png" alt=""> <br>
                         </div>
+                        <div class="endereco-cobranca">
+                            <?php
+                                if($cliente['cobranca']){
+                            ?>
+                            <div class="col s12 m12 l12 card endereco">
+                                <p>&nbsp;</p>
+                                <p><b><h5>Endereço de Cobrança</h5></b>
+                                <h6>
+                                <p><?php echo $cliente['cobranca']['logradouro']; ?><br></p>
+                                <p><?php echo "{$cliente['cobranca']['cidade']} - {$cliente['cobranca']['uf']}"; ?></p>
+                                </h6><p>&nbsp;</p>
+                            </div>
+                            <?php
+                            }
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>

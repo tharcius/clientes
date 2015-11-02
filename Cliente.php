@@ -16,9 +16,7 @@ class Cliente {
     private $cpfCnpj;
     private $fisica;
     private $juridica;
-
-    // Analisar
-    private $enderecoCobranca;
+    private $cobranca;
 
     public function getNome(){
         return $this->nome;
@@ -40,8 +38,8 @@ class Cliente {
         return $this->endereco;
     }
 
-    public function getEnderecoCobranca(){
-        return $this->enderecoCobranca;
+    public function getCobranca(){
+        return $this->cobranca;
     }
 
     public function getFoto()
@@ -85,5 +83,6 @@ class Cliente {
         $this->endereco     = $dados['endereco'];
         $this->fisica       = $dados['fisica'];
         $this->juridica     = $dados['juridica'];
+        $this->cobranca     = $dados['cobranca'];
     }
 }

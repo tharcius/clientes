@@ -21,6 +21,7 @@ Acabei trocando o Foundation pelo Materialize para aprender a trabalhar com esse
   - Aceitar também clientes Pessoa Jurídica em sua listagem..
   - No momento da listagem dos clientes, você deve indicar em uma das colunas se o cliente é pessoa física ou jurídica.
   - Ambos os tipos devem implementar uma interface onde seja possível classificar o grau de importância do cliente para a empresa (ex: cliente 1,2,3,5 estrelas).
+  - Opção de criar clientes que utilizão endereço específico de cobrança.
 
 
 - Correções no projeto
