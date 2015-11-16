@@ -17,6 +17,12 @@ Acabei trocando o Foundation pelo Materialize para aprender a trabalhar com esse
 
 
 ## Histórico de mudanças
+- Correções no projeto
+  - Implementada as interfaces para Endereço de Cobrança, Grau de Importância, Pessoa Física e Jurídica.
+  - Alterações nas classes Cliente, Fisica e Juridica
+  - Alterações necessárias nas telas
+  - Pequenas alterações no layout e favicon
+
 - Nova etapa
   - Aceitar também clientes Pessoa Jurídica em sua listagem..
   - No momento da listagem dos clientes, você deve indicar em uma das colunas se o cliente é pessoa física ou jurídica.

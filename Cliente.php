@@ -5,18 +5,20 @@
  * Date: 02/07/2015
  * Time: 15:50
  */
+require_once "interfaces/iCliente.php";
+require_once "interfaces/iGrauImportancia.php";
+require_once "interfaces/iEnderecoCobranca.php";
 
-class Cliente {
-    private $nome;
-    private $telefone;
-    private $email;
-    private $endereco;
-    private $foto;
-    private $classificacao;
-    private $cpfCnpj;
-    private $fisica;
-    private $juridica;
-    private $cobranca;
+class Cliente implements iCliente, iGrauImportancia, iEnderecoCobranca{
+    protected $nome;
+    protected $telefone;
+    protected $email;
+    protected $endereco;
+    protected $cpfCnpj;
+    protected $foto;
+    protected $pessoaFisica;
+    protected $cobranca;
+    protected $grauImportancia;
 
     public function getNome(){
         return $this->nome;
@@ -28,10 +30,6 @@ class Cliente {
 
     public function getEmail(){
         return $this->email;
-    }
-
-    public function getDadosPessoais(){
-        return $this->dadosPessoais;
     }
 
     public function getEndereco(){
@@ -47,8 +45,9 @@ class Cliente {
         return $this->foto;
     }
 
-    public function getClassificacao(){
-        return $this->classificacao;
+    public function getPessoaFisica()
+    {
+        return $this->pessoaFisica;
     }
 
     public function getCpfCnpj()
@@ -56,22 +55,24 @@ class Cliente {
         return $this->cpfCnpj;
     }
 
-    public function getFisica(){
-        return $this->fisica;
+    public function setCpfCnpj($cpfCnpj)
+    {
+        $this->pessoaFisica = $cpfCnpj;
     }
 
-    public function getJuridica(){
-        return $this->juridica;
+    public function getGrauImportancia(){
+        return $this->grauImportancia;
+    }
+
+    public function setGrauImportancia($grauImportancia){
+        $this->grauImportancia = $grauImportancia;
+    }
+
+    public function getEnderecoCobranca(){
+        return $this->cobranca;
     }
 
     public function __construct($dados){
-        /**
-         * $dados['cliente']  = informações pessoais do cliente
-         * $dados['endereco'] = informações de endereçamento
-         * $dados['fisica']   = dados pessoais e documentação do cliente físico
-         * $dados['juridica'] = dados e documentação do cliente jurídico
-         */
-
         $cliente = $dados['cliente'];
 
         $this->nome         = $cliente['nome'];
@@ -79,10 +80,8 @@ class Cliente {
         $this->email        = $cliente['email'];
         $this->foto         = $cliente['foto'];
         $this->classificacao= $cliente['classificacao'];
-        $this->cpfCnpj      = $cliente['cpfCnpj'];
+        $this->cpfCnpj      = $cliente["cpfCnpj"];
         $this->endereco     = $dados['endereco'];
-        $this->fisica       = $dados['fisica'];
-        $this->juridica     = $dados['juridica'];
         $this->cobranca     = $dados['cobranca'];
     }
 }

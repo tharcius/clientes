@@ -1,14 +1,18 @@
 <?php
-include_once "Cliente.php";
-$cliente0 = new Cliente(
+    require_once "Cliente.php";
+    require_once "Fisica.php";
+    require_once "Juridica.php";
+
+$cliente0 = new Fisica(
     [
         'cliente'=>[
             'nome'      =>'Neville',
             'telefone'  =>'(62) 8527-2801',
             'email'     =>'longbottom@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-01',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -218px',
-            'classificacao'=> 2
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/faces.png") repeat scroll -69px -218px',
+            'grauImportancia'=> 2,
+            'pessoaFisica' => 1
         ]
         ,
         'endereco'=>[
@@ -33,15 +37,16 @@ $cliente0 = new Cliente(
     ]
 );
 
-$cliente1 = new Cliente(
+$cliente1 = new Fisica(
     [
         'cliente'=>[
             'nome'      =>'Harry',
             'telefone'  =>'(62) 3326-2804',
             'email'     =>'harry@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-04',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -322px',
-            'classificacao'=> 5
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/faces.png") repeat scroll -69px -322px',
+            'grauImportancia'=> 5,
+            'pessoaFisica'=>1
         ]
         ,
         'endereco'=>[
@@ -62,15 +67,16 @@ $cliente1 = new Cliente(
     ]
 );
 
-$cliente2 = new Cliente(
+$cliente2 = new Fisica(
     [
         'cliente'=>[
             'nome'      =>'Ronald',
             'telefone'  =>'(62) 3326-2805',
             'email'     =>'rony@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-05',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -69px -114px',
-            'classificacao'=> 4
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/faces.png") repeat scroll -69px -114px',
+            'grauImportancia'=> 4,
+            'pessoaFisica'=>1
         ]
         ,
         'endereco'=>[
@@ -91,15 +97,16 @@ $cliente2 = new Cliente(
     ]
 );
 
-$cliente3 = new Cliente(
+$cliente3 = new Fisica(
     [
         'cliente'=>[
             'nome'      =>'Ginevra',
             'telefone'  =>'(62) 3326-2806',
             'email'     =>'gina@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-05',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll 0 -10px',
-            'classificacao'=> 4
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/faces.png") repeat scroll 0 -10px',
+            'grauImportancia'=> 4,
+            'pessoaFisica'=>1
         ]
         ,
         'endereco'=>[
@@ -120,15 +127,16 @@ $cliente3 = new Cliente(
     ]
 );
 
-$cliente4 = new Cliente(
+$cliente4 = new Fisica(
     [
         'cliente'=>[
-            'nome'      =>'Hermione ',
+            'nome'      =>'Hermione',
             'telefone'  =>'(62) 3326-2807',
             'email'     =>'mione@brasilpad.com',
             'cpfCnpj'   =>'000.000.000-06',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/faces.png") repeat scroll -138px -218px',
-            'classificacao'=> 4
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/faces.png") repeat scroll -138px -218px',
+            'grauImportancia'=> 4,
+            'pessoaFisica'=>1
         ]
         ,
         'endereco'=>[
@@ -149,15 +157,16 @@ $cliente4 = new Cliente(
     ]
 );
 
-$cliente5 = new Cliente(
+$cliente5 = new Juridica(
     [
         'cliente'=>[
             'nome'      =>'Dedos de Mel',
             'telefone'  =>'(62) 3326-3100',
             'email'     =>'dedosdemel@brasilpad.com',
             'cpfCnpj'   =>'00.000.000/0005-01',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -141px -5px',
-            'classificacao'=> 3
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/logos.png") repeat scroll -141px -5px',
+            'grauImportancia'=> 3,
+            'pessoaFisica'=>0
         ]
         ,
         'endereco'=>[
@@ -178,15 +187,16 @@ $cliente5 = new Cliente(
     ]
 );
 
-$cliente6 = new Cliente(
+$cliente6 = new Juridica(
     [
         'cliente'=>[
             'nome'      =>'Olivaras',
             'telefone'  =>'(62) 3326-3105',
             'email'     =>'olivanders@brasilpad.com',
             'cpfCnpj'   =>'00.000.000/0005-02',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -72px -3px',
-            'classificacao'=> 2
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/logos.png") repeat scroll -72px -3px',
+            'grauImportancia'=> 2,
+            'pessoaFisica'=>0
         ]
         ,
         'endereco'=>[
@@ -211,15 +221,16 @@ $cliente6 = new Cliente(
     ]
 );
 
-$cliente7 = new Cliente(
+$cliente7 = new Juridica(
     [
         'cliente'=>[
             'nome'      =>'Gemialidades Weasley',
             'telefone'  =>'(62) 3326-3110',
             'email'     =>'g.wesley@brasilpad.com',
             'cpfCnpj'   =>'00.000.000/0005-23',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -210px -3px',
-            'classificacao'=> 4
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/logos.png") repeat scroll -210px -3px',
+            'grauImportancia'=> 4,
+            'pessoaFisica'=>0
         ]
         ,
         'endereco'=>[
@@ -244,15 +255,16 @@ $cliente7 = new Cliente(
     ]
 );
 
-$cliente8 = new Cliente(
+$cliente8 = new Juridica(
     [
         'cliente'=>[
             'nome'      =>'Sorveteria Florean',
             'telefone'  =>'(62) 3326-3150',
             'email'     =>'sorveteria@brasilpad.com',
             'cpfCnpj'   =>'00.000.000/0005-10',
-            'foto'      => 'rgba(0, 0, 0, 0) url("/img/logos.png") repeat scroll -279px -3px',
-            'classificacao'=> 1
+            'foto'      => 'rgba(0, 0, 0, 0) url("img/logos.png") repeat scroll -279px -3px',
+            'grauImportancia'=> 1,
+            'pessoaFisica'=>0
         ]
         ,
         'endereco'=>[
@@ -272,23 +284,28 @@ $cliente8 = new Cliente(
         'cobranca'=>null
     ]
 );
-//-345px -322px
+
 $clientes = [$cliente0, $cliente1, $cliente2, $cliente3, $cliente4, $cliente5, $cliente6, $cliente7, $cliente8];
 
 foreach ($clientes as $key => $cliente) {
-
     $cl[$cliente->getNome()]['id']            = $key;
     $cl[$cliente->getNome()]['nome']          = $cliente->getNome();
     $cl[$cliente->getNome()]['telefone']      = $cliente->getTelefone();
     $cl[$cliente->getNome()]['email']         = $cliente->getEmail();
     $cl[$cliente->getNome()]['foto']          = $cliente->getFoto();
-    $cl[$cliente->getNome()]['classificacao'] = $cliente->getClassificacao();
+    $cl[$cliente->getNome()]['grauImportancia'] = $cliente->getgrauImportancia();
     $cl[$cliente->getNome()]['cpfCnpj']       = $cliente->getcpfCnpj();
     $cl[$cliente->getNome()]['endereco']      = $cliente->getEndereco();
-    $cl[$cliente->getNome()]['fisica']        = $cliente->getFisica();
-    $cl[$cliente->getNome()]['juridica']      = $cliente->getJuridica();
+    $cl[$cliente->getNome()]['pessoaFisica']  = $cliente->getPessoaFisica();
     $cl[$cliente->getNome()]['cobranca']      = $cliente->getCobranca();
-//    echo "<pre>";
-//    print_r($cliente);
-//    exit();
+    if($cliente->getPessoaFisica()){
+        $cl[$cliente->getNome()]['dataNascimento'] = $cliente->getDataNascimento();
+        $cl[$cliente->getNome()]['estadoCivil'] = $cliente->getEstadoCivil();
+        $cl[$cliente->getNome()]['whatsapp'] = $cliente->getWhatsapp();
+
+    } else {
+        $cl[$cliente->getNome()]['contato'] = $cliente->getContato();
+        $cl[$cliente->getNome()]['tipo'] = $cliente->getTipo();
+        $cl[$cliente->getNome()]['url'] = $cliente->getUrl();
+    }
 }

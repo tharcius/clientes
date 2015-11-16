@@ -1,4 +1,6 @@
 <?php
+    error_reporting(E_ALL);
+    ini_set("display_errors", 0);
     include_once 'classes.php';
     include_once 'head.php';
 ?>
@@ -7,12 +9,12 @@
     $ordenacao = filter_input(INPUT_GET, 'ord');
     if ($ordenacao == 'asc') {
         ksort($cl);
-        echo "<a href='/index.php?ord=desc'><img src='img/up.png'></a>";
+        echo "<a href='index.php?ord=desc'><img src='img/up.png'></a>";
     } elseif (($ordenacao != 'asc') and (!$ordenacao == null) ) {
         krsort($cl);
-        echo "<a href='/index.php?ord=asc'><img src='img/down.png'></a>";
+        echo "<a href='index.php?ord=asc'><img src='img/down.png'></a>";
     } else {
-        echo "<a href='/index.php?ord=asc'><img src='img/down.png'></a>";
+        echo "<a href='index.php?ord=asc'><img src='img/down.png'></a>";
     }
 ?>
 </h3>
@@ -23,7 +25,8 @@
         <?php
         foreach ($cl as $cliente){
             $pessoa = 'juridica';
-            if ($cliente['fisica'])
+
+            if ($cliente['pessoaFisica'])
                 $pessoa = 'fisica';
             ?>
 
@@ -31,7 +34,7 @@
                 <div class="card blue-grey darken-1">
                     <div class="card-content white-text">
                         <span class="card-title"><i class="foto-user" style='background: <?php echo($cliente['foto']) ?>; width: 69px; height: 80px;'>&nbsp;</i><a href="detalhes.php?id=<?php echo $cliente['nome']; ?>" class="cyan-text text-darken-1" style="text-shadow: -2px 2px 3px #000; font-weight: bold"><?php echo $cliente['nome']; ?></a></span>
-                        <p><i class="estrela<?php echo($cliente['classificacao']) ?>">&nbsp;</i></p>
+                        <p><i class="estrela<?php echo($cliente['grauImportancia']) ?>">&nbsp;</i></p>
                         <p><?php echo $cliente['telefone']; ?></p>
                         <p><?php echo $cliente['email']; ?></p>
                     </div>
