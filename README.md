@@ -2,7 +2,13 @@
 
 
 
-2.º exercício do curso de POO, nesta etapa temos como objetivo aceitar e diferenciar clientes do tipo Pessoa Jurídica e Pessoa Física, além de por em prática a utilização de getters e setters.
+3.º exercício do curso de POO, nesta etapa temos como objetivo refatorar as classes utilizadas de seu projeto para que as mesmas trabalhem com namespaces.
+
+-- Desafios dessa etapa --
+- Refatorar as classes para utilizarem namespace.
+
+
+-- Regras de Negócio --
 
 No momento da listagem dos clientes, deve-se diferenciar clientes do tipo jurídico e do tipo físico.
 
