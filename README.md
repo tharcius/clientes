@@ -2,27 +2,32 @@
 
 
 
-3.º exercício do curso de POO, nesta etapa temos como objetivo refatorar as classes utilizadas de seu projeto para que as mesmas trabalhem com namespaces.
+## 3.º exercício do curso de POO, nesta etapa temos como objetivo refatorar as classes utilizadas de seu projeto para que as mesmas trabalhem com namespaces.
 
--- Desafios dessa etapa --
-- Refatorar as classes para utilizarem namespace.
-
-
--- Regras de Negócio --
-
-No momento da listagem dos clientes, deve-se diferenciar clientes do tipo jurídico e do tipo físico.
-
-Nos dois casos, deve-se implementar uma interface de classificação de importância.
-
-Alguns clientes optarão por um endereço específico de cobrança, deverá ser criada uma interface para que os clientes a possam informar.
-
-Para ficar mais apresentável, no meu caso, ao invés do Bootstrap optei pelo Foundation, devido a um acabamento melhor no tratamendo das media querys.
-
-Acabei trocando o Foundation pelo Materialize para aprender a trabalhar com esse framework CSS.
+### Desafios dessa etapa
+  
+  - Refatorar as classes para utilizarem namespace.
+  - Verificar a necessidade de se trabalhar com classe abstrata.
+  - Criar a estrutura de diretórios, nome de arquivos e classes seguindo a PSR-0 (www.php-fig.org).
+  - Implementar o autoload.
+  - Deixe todo o fonte de sua aplicação no mesmo nível que o DocumentRoot do servidor web.
 
 
+### Regras de Negócio
 
-## Histórico de mudanças
+  - No momento da listagem dos clientes, deve-se diferenciar clientes do tipo jurídico e do tipo físico.
+
+  - Nos dois casos, deve-se implementar uma interface de classificação de importância.
+
+  - Alguns clientes optarão por um endereço específico de cobrança, deverá ser criada uma interface para que os clientes a possam informar.
+
+  - Para ficar mais apresentável, no meu caso, ao invés do Bootstrap optei pelo Foundation, devido a um acabamento melhor no tratamendo das media querys.
+
+  - Acabei trocando o Foundation pelo Materialize para aprender a trabalhar com esse framework CSS.
+
+
+
+### Histórico de mudanças
 - Correções no projeto
   - Implementada as interfaces para Endereço de Cobrança, Grau de Importância, Pessoa Física e Jurídica.
   - Alterações nas classes Cliente, Fisica e Juridica
@@ -54,3 +59,4 @@ Acabei trocando o Foundation pelo Materialize para aprender a trabalhar com esse
   - A partir da classe principal, foi gerado um array com 10 clientes.
   - Estrutura inicial criada.
   - Criada uma classe Cliente com as principais características de cliente.
+

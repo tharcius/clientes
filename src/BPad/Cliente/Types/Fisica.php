@@ -1,7 +1,10 @@
 <?php
 
-require_once "interfaces/iPessoaFisica.php";
-class Fisica extends Cliente implements iPessoaFisica{
+namespace BPad\Cliente\Types;
+use BPad\Cliente\ClienteAbstract;
+use BPad\Cliente\Util\iPessoaFisica;
+
+class Fisica extends ClienteAbstract implements iPessoaFisica{
     private $whatsapp;
     private $estadoCivil;
     private $dataNascimento;

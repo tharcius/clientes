@@ -1,8 +1,8 @@
 <?php
-    error_reporting(E_ALL);
-    ini_set("display_errors", 0);
-    include_once 'classes.php';
+    // Autoload de classes
+
     include_once 'head.php';
+    include_once 'src/BPad/Cliente/Database/dados.php';
 ?>
 <h3>Listagem de Clientes
 <?php

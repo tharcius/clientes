@@ -1,3 +1,13 @@
+<?php
+define('CLASS_DIR', 'src/');
+set_include_path(get_include_path().PATH_SEPARATOR.CLASS_DIR);
+spl_autoload_register();
+
+// Controle de exibição de erros do PHP
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

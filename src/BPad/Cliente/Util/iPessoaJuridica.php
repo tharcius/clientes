@@ -3,9 +3,12 @@
 /**
  * Created by PhpStorm.
  * User: Tharcius
- * Date: 15/11/2015
+ * Database: 15/11/2015
  * Time: 23:49
  */
+
+namespace BPad\Cliente\Util;
+
 interface iPessoaJuridica{
     public function getContato();
     public function setContato($contato);

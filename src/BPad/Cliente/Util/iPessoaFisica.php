@@ -3,9 +3,10 @@
 /**
  * Created by PhpStorm.
  * User: Tharcius
- * Date: 15/11/2015
+ * Database: 15/11/2015
  * Time: 23:48
  */
+namespace BPad\Cliente\Util;
 
 interface iPessoaFisica{
     public function getWhatsapp();

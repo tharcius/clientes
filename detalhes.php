@@ -1,13 +1,16 @@
 <?php
-include_once 'classes.php';
-include_once 'head.php';
+    include_once 'classes.php';
+    include_once 'head.php';
+    include_once 'src/BPad/Cliente/Database/dados.php';
 
-$cliente = $cl[$_GET['id']];
-$pessoa = 'juridica';
-if ($cliente['fisica'])
-    $pessoa = 'fisica';
+    $cliente = $cl[$_GET['id']];
+
+    $pessoa = 'juridica';
+    if ($cliente['pessoaFisica'])
+        $pessoa = 'fisica';
 
 ?>
+
 
 <div class="row">
     <div class="col s12 m12 l12">

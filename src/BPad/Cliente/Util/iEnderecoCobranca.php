@@ -3,9 +3,12 @@
 /**
  * Created by PhpStorm.
  * User: Tharcius
- * Date: 16/11/2015
+ * Database: 16/11/2015
  * Time: 01:02
  */
+
+namespace BPad\Cliente\Util;
+
 interface iEnderecoCobranca{
     public function getEnderecoCobranca();
 }

@@ -2,14 +2,16 @@
 /**
  * Created by PhpStorm.
  * User: Tharcius
- * Date: 02/07/2015
+ * Database: 02/07/2015
  * Time: 15:50
  */
-require_once "interfaces/iCliente.php";
-require_once "interfaces/iGrauImportancia.php";
-require_once "interfaces/iEnderecoCobranca.php";
 
-class Cliente implements iCliente, iGrauImportancia, iEnderecoCobranca{
+namespace BPad\Cliente;
+use \BPad\Cliente\Util\iCliente;
+use \BPad\Cliente\Util\iEnderecoCobranca;
+use \BPad\Cliente\Util\iGrauImportancia;
+
+abstract class ClienteAbstract implements iCliente, iEnderecoCobranca, iGrauImportancia{
     protected $nome;
     protected $telefone;
     protected $email;
@@ -72,16 +74,4 @@ class Cliente implements iCliente, iGrauImportancia, iEnderecoCobranca{
         return $this->cobranca;
     }
 
-    public function __construct($dados){
-        $cliente = $dados['cliente'];
-
-        $this->nome         = $cliente['nome'];
-        $this->telefone     = $cliente['telefone'];
-        $this->email        = $cliente['email'];
-        $this->foto         = $cliente['foto'];
-        $this->classificacao= $cliente['classificacao'];
-        $this->cpfCnpj      = $cliente["cpfCnpj"];
-        $this->endereco     = $dados['endereco'];
-        $this->cobranca     = $dados['cobranca'];
-    }
 }

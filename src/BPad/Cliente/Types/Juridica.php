@@ -1,8 +1,10 @@
 <?php
 
-require_once "interfaces/iPessoaJuridica.php";
+namespace BPad\Cliente\Types;
+use BPad\Cliente\ClienteAbstract;
+use BPad\Cliente\Util\iPessoaJuridica;
 
-class Juridica extends Cliente implements iPessoaJuridica{
+class Juridica extends ClienteAbstract implements iPessoaJuridica{
     private $contato;
     private $url;
     private $tipo;

@@ -1,7 +1,6 @@
 <?php
-    require_once "Cliente.php";
-    require_once "Fisica.php";
-    require_once "Juridica.php";
+use \BPad\Cliente\Types\Fisica;
+use \BPad\Cliente\Types\Juridica;
 
 $cliente0 = new Fisica(
     [
