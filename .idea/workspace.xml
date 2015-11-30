@@ -2,91 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6607897a-166f-4c31-b4f5-e4fecd878d76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/autoload.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/web/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/web/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/materialize.js" afterPath="$PROJECT_DIR$/web/bin/materialize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/browserconfig.xml" afterPath="$PROJECT_DIR$/web/browserconfig.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/materialize.css" afterPath="$PROJECT_DIR$/web/css/materialize.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/materialize.min.css" afterPath="$PROJECT_DIR$/web/css/materialize.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/web/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/detalhes.php" afterPath="$PROJECT_DIR$/web/detalhes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-114.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-114.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-120.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-120.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-144.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-144.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-150.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-150.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-152.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-152.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-16.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-160.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-160.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-180.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-180.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-192.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-192.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-310.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-310.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-32.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-32.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-57.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-57.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-60.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-60.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-64.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-64.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-70.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-70.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-72.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-72.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-76.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-76.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon-96.png" afterPath="$PROJECT_DIR$/web/favicon/favicon-96.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/instrucoes-faviconit.txt" afterPath="$PROJECT_DIR$/web/favicon/instrucoes-faviconit.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/material-design-icons/LICENSE.txt" afterPath="$PROJECT_DIR$/web/font/material-design-icons/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.eot" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.svg" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.ttf" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.woff" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.woff2" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Bold.woff" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Bold.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Bold.woff2" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Bold.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Light.woff" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Light.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Light.woff2" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Light.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Medium.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Medium.woff" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Medium.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Medium.woff2" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Medium.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Regular.woff" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Regular.woff2" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Thin.woff" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Thin.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/roboto/Roboto-Thin.woff2" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Thin.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/web/footer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/web/head.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/humans.txt" afterPath="$PROJECT_DIR$/web/humans.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/down.png" afterPath="$PROJECT_DIR$/web/img/down.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/faces.jpg" afterPath="$PROJECT_DIR$/web/img/faces.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/faces.png" afterPath="$PROJECT_DIR$/web/img/faces.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/fisica.png" afterPath="$PROJECT_DIR$/web/img/fisica.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/honeydukes_logo_by_greendude33-d48r0xe.png" afterPath="$PROJECT_DIR$/web/img/honeydukes_logo_by_greendude33-d48r0xe.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/icon-pessoa-fisica (cópia).png" afterPath="$PROJECT_DIR$/web/img/icon-pessoa-fisica (cópia).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/icon-pessoa-fisica.png" afterPath="$PROJECT_DIR$/web/img/icon-pessoa-fisica.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/icon-pessoa-juridica (cópia).png" afterPath="$PROJECT_DIR$/web/img/icon-pessoa-juridica (cópia).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/icon-pessoa-juridica.png" afterPath="$PROJECT_DIR$/web/img/icon-pessoa-juridica.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/logos.png" afterPath="$PROJECT_DIR$/web/img/logos.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/logos.svg" afterPath="$PROJECT_DIR$/web/img/logos.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/star-rating-icon-png-215.png" afterPath="$PROJECT_DIR$/web/img/star-rating-icon-png-215.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/star-rating.png" afterPath="$PROJECT_DIR$/web/img/star-rating.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/up.png" afterPath="$PROJECT_DIR$/web/img/up.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/web/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/init.js" afterPath="$PROJECT_DIR$/web/js/init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-2.0.2.min.js" afterPath="$PROJECT_DIR$/web/js/jquery-2.0.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/materialize.js" afterPath="$PROJECT_DIR$/web/js/materialize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/materialize.min.js" afterPath="$PROJECT_DIR$/web/js/materialize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/robots.txt" afterPath="$PROJECT_DIR$/web/robots.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BPad/Cliente/Database/dados.php" afterPath="$PROJECT_DIR$/web/dados.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/clientes.iml" afterPath="$PROJECT_DIR$/.idea/clientes.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BPad/Cliente/ClienteAbstract.php" afterPath="$PROJECT_DIR$/src/BPad/Cliente/ClienteAbstract.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BPad/Cliente/Types/Fisica.php" afterPath="$PROJECT_DIR$/src/BPad/Cliente/Types/Fisica.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BPad/Cliente/Types/Juridica.php" afterPath="$PROJECT_DIR$/src/BPad/Cliente/Types/Juridica.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BPad/Cliente/Util/classes.php" afterPath="$PROJECT_DIR$/src/BPad/Cliente/Util/classes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BPad/Cliente/Util/iEnderecoCobranca.php" afterPath="$PROJECT_DIR$/src/BPad/Cliente/Util/iEnderecoCobranca.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BPad/Cliente/Util/iGrauImportancia.php" afterPath="$PROJECT_DIR$/src/BPad/Cliente/Util/iGrauImportancia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BPad/Cliente/Util/iPessoaFisica.php" afterPath="$PROJECT_DIR$/src/BPad/Cliente/Util/iPessoaFisica.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BPad/Cliente/Util/iPessoaJuridica.php" afterPath="$PROJECT_DIR$/src/BPad/Cliente/Util/iPessoaJuridica.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="clientes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,7 +23,21 @@
     <favorites_list name="clientes" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9117647">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -234,6 +164,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="clientes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -493,7 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -541,7 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -589,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -597,7 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -605,7 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -851,7 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
@@ -862,7 +802,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4117647">
+        <state vertical-scroll-proportion="0.9117647">
           <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
           <folding />
         </state>
