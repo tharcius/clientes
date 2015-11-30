@@ -28,6 +28,10 @@
 
 
 ### Histórico de mudanças
+- Novas Correções
+  - Criada uma pasta chamada web, aonde será colocada todos os arquivos de visualização, separando as classes do projeto (src) do restante, por segurança.
+  - Autoload alterado e corrigido seguindo o padrão da PSR-0
+
 - Correções no projeto
   - Implementada as interfaces para Endereço de Cobrança, Grau de Importância, Pessoa Física e Jurídica.
   - Alterações nas classes Cliente, Fisica e Juridica
